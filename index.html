@@ -38,9 +38,18 @@
         outline: none;
         cursor: pointer;
         transition: all 0.3s;
+        position: relative;
       }
       button:hover {
         box-shadow: 0 0 5px  #333;
+      }
+      button::after {
+        content: '提示: 图片灰化需一定时间，请耐心等待。不要在微信内置浏览器内使用';
+        position: absolute;
+        width: 270px;
+        top: calc(100% + 10px);
+        left: -80px;
+        color: #333;
       }
     </style>
   </head>
