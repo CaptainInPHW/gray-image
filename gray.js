@@ -1,12 +1,5 @@
-# gray-image
-
-Make color images gray.
-
-## Usage
-
-```js
 /**
- * image: instance of Image 
+ * image: instance of Image
  * return: string
 */
 function gray(image) {
@@ -37,9 +30,3 @@ function gray(image) {
 
   return canvas.toDataURL();
 }
-```
-
-## Lisence
-
-MIT
-
