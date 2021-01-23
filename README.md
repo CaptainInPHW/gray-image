@@ -2,6 +2,16 @@
 
 Make color images gray.
 
+## Demo
+
+Before:
+
+![cat](./cat.png)
+
+After:
+
+![gray-cat](./gray-cat.png)
+
 ## Usage
 
 ```js
@@ -37,6 +47,11 @@ function gray(image) {
 
   return canvas.toDataURL();
 }
+
+const sourceImage = new Image();
+sourceImage.src = 'cat.png';
+const image = new Image;
+image.src = gray(sourceImage);
 ```
 
 ## Lisence
