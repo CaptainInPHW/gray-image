@@ -54,7 +54,7 @@ const image = new Image;
 image.src = gray(sourceImage);
 ```
 
-## Lisence
+## License
 
 MIT
 
