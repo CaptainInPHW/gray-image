@@ -14,6 +14,7 @@ After:
 
 ## Usage
 
+```javascript
 /**
  * Make color images gray.
  *
