@@ -1,6 +1,6 @@
 # gray-image
 
-Make color images gray.
+🌉 Make color images gray.
 
 ## Demo
 
@@ -14,11 +14,12 @@ After:
 
 ## Usage
 
-```js
 /**
- * image: instance of Image 
- * return: string
-*/
+ * Make color images gray.
+ *
+ * @param {Image} image The instance of Image
+ * @returns {string} The src of gray image
+ */
 function gray(image) {
   const width = image.width;
   const height = image.height;
@@ -57,4 +58,3 @@ image.src = gray(sourceImage);
 ## License
 
 MIT
-
